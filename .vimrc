@@ -1,3 +1,4 @@
+set paste
 set nocompatible
 syntax on
 colorscheme torte
@@ -5,6 +6,7 @@ set number
 set cursorline
 set ruler
 set shiftwidth=4
+set autoindent
 set softtabstop=4
 set nobackup
 set autochdir
@@ -17,6 +19,7 @@ set smartindent
 set laststatus=2
 set foldenable
 set foldmethod=syntax
+set foldlevelstart=99"设置打开文件默认不折叠
 set foldcolumn=0
 
 set rtp+=~/.vim/bundle/vundle
